@@ -1,4 +1,4 @@
-<h1>Todo List com javascript<h1>
+<h1>Todo List com javascript</h1>
 
 <img src="img/img-todolist.png">
 
