@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-image: url("/img/todoListBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.todo-grid,
+.todo-input-grid {
+    display: grid;
+    /* HOW MANY COLUMS ARE IN OUR GRID */
+    grid-template-columns: 250px 150px 100px;
+    /* SPACES BETWEEN THE COLUMS OF THE GRID */
+    column-gap: 50px;
+    /* SPACES BETWEEN THE ROWS OF THE GRID */
+    row-gap: 10px;
+    /* ALIGN THE TEXT WITH THE BUTTON */
+    align-items: center;
+}
+
+.todo-input-grid {
+    margin-bottom: 10px;
+    align-items: stretch;
+}
+
+.name-input,
+.due-date.input {
+    font-size: 15px;
+    padding: 6px;
+}
+
+.add-todo-button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.delete-todo-button {
+    background-color: darkred;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
